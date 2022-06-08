@@ -4,19 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <a href="./bookmark.html">Bookmark</a>
-    <title>Document</title>
+    <title>Quiz-App</title>
   </head>
-  <body>
-    <nav class="navigation">
-        <ul>
-            <li><a href=""></a></li>
+  <main>
+    <body>
+      <h1>Quiz-App</h1>
+      <section>
+        <article class="question__sec">
+          <img
+            class="box-img"
+            src="images/bookmark_white_24dp(1).svg"
+            alt="bookmark-icon"
+          />
 
+          <h2>Question</h2>
+          This is where the question is being asked!
 
+          <button type="button" value="button">Answer</button>
+          <button type="button" value="button">Answer</button>
+
+          <button type="button" value="button">Show Answer</button>
+        </article>
+      </section>
+      <br />
+      <section>
+        <article class="question__sec--part2">
+          <img
+            class="box-img2"
+            src="images/bookmark_white_24dp(1).svg"
+            alt="bookmark-icon"
+          />
+          <h2>Question</h2>
+          This is where the Question is being asked!
+          <form action="Questions">
+            <button type="submit" value="Submit">Answer</button>
+            <button type="submit" value="Submit">Answer</button>
+            <button type="submit" value="Submit">Show-Answer</button>
+          </form>
+        </article>
+      </section>
+
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="http://127.0.0.1:3000/index.html"
+              ><img src="images/home.icon.svg" alt="home-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:3000/create.html"
+              ><img src="images/create.icon.svg" alt="create-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:3000/profile.html"
+              ><img src="images/profile.icon.svg" alt="profile-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:3000/bookmark.html"
+              ><img
+                src="images/bookmark_FILL0_wght400_GRAD0_opsz48.svg"
+                alt="bookmark-icon"
+            /></a>
+          </li>
         </ul>
-
-
-    </nav>
-  </body>
+      </nav>
+    </body>
+  </main>
 </html>

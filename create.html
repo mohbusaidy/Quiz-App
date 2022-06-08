@@ -15,32 +15,38 @@
   </head>
   <main>
     <body>
-      <h1>BOOKMARKS</h1>
+      <h1>CREATE</h1>
+      <h2 class="create">ADD Question</h2>
       <section>
-        <article class="question-section">
-          <img
-            class="box-img"
-            src="images/bookmark_white_24dp(1).svg"
-            alt="bookmark-icon"
-          />
-          <h2>Question</h2>
-          <p>This is where questions being saved!</p>
+        <article>
+          This is wehre you can create queistions!
+          <form action="Create" method="get">
+            <label for="question">Question:</label>
+            <input type="text" id="Question" name="question" /> <br />
+            <br />
+            <label for="question">Question:</label>
+            <input type="text" id="Question" name="question" />
+          </form>
         </article>
       </section>
       <br />
       <br />
       <section>
         <article>
-          <h2>Answer</h2>
-          <img
-            class="box-img2"
-            src="images/bookmark_white_24dp(1).svg"
-            alt="bookmark-icon"
-          />
-          <p>This is where questions being saved</p>
+          This is wehre you type in Answer!
+          <form action="Create" method="get">
+            <label for="Answer">Answer:</label>
+            <input type="text" id="Answer" name="Answer" /> <br />
+            <br />
+            <label for="Answer">Answer:</label>
+            <input type="text" id="Answer" name="Answer" />
+          </form>
         </article>
       </section>
-
+      <section>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+      </section>
       <nav>
         <ul class="navigation">
           <li>

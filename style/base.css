@@ -1,7 +1,18 @@
 * {
   box-sizing: border-box;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  max-width: 375px;
 }
 :root {
-  --basecolor: green;
-  --color2: red;
+  --basecolor: #262626;
+  --color2: #8c3908;
+  --color3: #f2f2f2;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+body {
+  background-color: var(--basecolor);
+}
+article {
+  border: 5px solid var(--color2);
+  color: #f2f2f2;
 }
