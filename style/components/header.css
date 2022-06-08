@@ -1,37 +1,80 @@
 .question__sec {
   border: 5px solid var(--color2);
   color: #f2f2f2;
+  padding: left 25px;
+  padding: 100px;
+  margin-bottom: 45px;
+  justify-content: center;
 }
-.question__sec--part2 {
-  border: 5px solid var(--color2);
-  color: #f2f2f2;
-  box-shadow: white;
+.first__header {
+  font-size: 25px;
+  padding: 0%;
+  position: absolute;
+  top: 90px;
+  left: 25px;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  margin-left: 0px;
-  background-color: var(--color2);
-  color: #f2f2f2;
+p {
+  position: absolute;
+  padding: 10px;
+  top: 125px;
+  left: 30px;
 }
-.box-img {
+div {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+}
+.show__btn {
+  top: 40px;
+  left: 20px;
+}
+
+.box__img {
   position: absolute;
   left: 350px;
   top: 78px;
 }
-
-h2 {
-  font-size: 20px;
+.home__question--2 {
+  top: 345px;
+  left: 25px;
 }
-.box-img2 {
+
+.box__img--2 {
   position: absolute;
   left: 350px;
   top: 338px;
+  font-size: 25px;
 }
-.create {
-  background-color: var(--color2);
+.home__btn--2 {
+  position: absolute;
+  top: 450px;
+  left: 50px;
+}
+.home__p--2 {
+  top: 380px;
+}
+.tags {
+  position: absolute;
+  top: 120px;
+  border: 1px;
+  left: 200px;
   color: #f2f2f2;
+}
+.tags__2 {
+  top: 375px;
+  position: absolute;
+  color: #f2f2f2;
+  left: 200px;
+}
+.person__icon {
+  height: 150px;
+}
+.about__me {
+  position: absolute;
+  color: #f2f2f2;
+  left: 150px;
+  top: 160px;
 }
 .prof-cirlce {
   border: 1px solid #f2f2f2;
@@ -40,11 +83,4 @@ h2 {
   height: 150px;
   background-color: var(--color2);
   left: 50px;
-}
-.upload__img {
-  display: flex;
-  justify-content: flex-end;
-}
-p {
-  border: 1px;
 }
