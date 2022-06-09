@@ -4,85 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script type=“text/javascript” src=“js/app.js” defer></script>
     <title>Quiz-App</title>
-  </head>
-  <main>
-    <body>
+    </head>
+  <body>
+    <header>
       <h1>Quiz-App</h1>
-
-      <article class="question__sec">
-        <img
-          class="box__img"
-          src="images/bookmark_white_24dp(1).svg"
-          alt="bookmark-icon"
-        />
-
-        <h2 class="first__header">Question</h2>
-        <p>This is where the question is being asked!</p>
-        <div>
-          <button type="button">Answer</button>
-          <button type="button">Answer</button>
-          <div class="show__btn">
-            <button type="button">Show Answer</button>
-          </div>
+    </header>
+      <section class="container__question--cards">
+        <article class="question__card">
+          <div class="bookmark"><i class="fa-solid fa-bookmark"></i></div>
+        <h2>Question:</h2>
+        <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <!-- <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> -->
+        <button type="button" id="show-answer">Show</br>Answer</button>
+        <div class="container__tags">
+          <button type="button" class="tag">history</button>
+          <button type="button" class="tag">music</button>
+          <button type="button" class="tag">sports</button>
+          <button type="button" class="tag">psychology</button>
         </div>
-      </article>
-      <section class="tags">
-        <p>cooking</p>
-      </section>
-      <article class="question__sec">
-        <img
-          class="box__img--2"
-          src="images/bookmark_white_24dp(1).svg"
-          alt="bookmark-icon"
-        />
-
-        <h2 class="home__question--2">Question</h2>
-        <p class="home__p--2">This is where the question is being asked!</p>
-        <div class="home__btn--2">
-          <button type="button">Answer</button>
-          <button type="button">Answer</button>
-          <div class="show__btn">
-            <button type="button">Show Answer</button>
+        </article>
+        </section>
+        <section class="container__question--cards">
+          <article class="question__card">
+            <div class="bookmark__marked"><i class="fa-solid fa-bookmark"></i></div>
+          <h2>Question:</h2>
+          <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+          <!-- <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> -->
+          <button type="button" id="show-answer">Show</br>Answer</button>
+          <div class="container__tags">
+            <button type="button" class="tag">history</button>
+            <button type="button" class="tag">music</button>
+            <button type="button" class="tag">sports</button>
+            <button type="button" class="tag">psychology</button>
           </div>
-        </div>
-      </article>
-      <section class="tags__2">
-        <p>adventures</p>
-      </section>
+          </article>
+          </section>
+          <section class="container__question--cards">
+            <article class="question__card">
+              <div class="bookmark"><i class="fa-solid fa-bookmark"></i></div>
+            <h2>Question:</h2>
+            <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+            <!-- <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> -->
+            <button type="button" id="show-answer">Show</br>Answer</button>
+            <div class="container__tags">
+              <button type="button" class="tag">history</button>
+              <button type="button" class="tag">music</button>
+              <button type="button" class="tag">sports</button>
+              <button type="button" class="tag">psychology</button>
+            </div>
+            </article>
+            </section>
+    <footer>
       <nav>
-        <ul class="navigation">
+        <ul>
           <li>
-            <a href="http://127.0.0.1:3000/index.html"
-              ><img src="images/home.icon.svg" alt="home-icon"
-            /></a>
+            <a class="current-site" href="index.html" alt="Home"
+              ><i class="fa-solid fa-house-chimney"></i
+            ></a>
           </li>
           <li>
-            <a href="http://127.0.0.1:3000/create.html"
-              ><img src="images/create.icon.svg" alt="create-icon"
-            /></a>
+            <a class="button" href="bookmark.html" alt="Bookmark"
+              ><i class="fa-solid fa-bookmark"></i
+            ></a>
           </li>
           <li>
-            <a href="http://127.0.0.1:3000/profile.html"
-              ><img src="images/profile.icon.svg" alt="profile-icon"
-            /></a>
+            <a class="button" href="input.html" alt="Create"
+              ><i class="fa-solid fa-list"></i
+            ></a>
           </li>
           <li>
-            <a href="http://127.0.0.1:3000/bookmark.html"
-              ><img
-                src="images/bookmark_FILL0_wght400_GRAD0_opsz48.svg"
-                alt="bookmark-icon"
-            /></a>
+            <a class="button" href="profile.html" alt="Profil"
+              ><i class="fa-solid fa-user"></i
+            ></a>
           </li>
         </ul>
       </nav>
-    </body>
-  </main>
+    </footer>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+Send a message to Anna Sandoval
+
+
+
+
+
+
+
+
