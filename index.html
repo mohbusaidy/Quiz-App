@@ -13,16 +13,18 @@
     <title>Quiz-App</title>
     </head>
   <body>
+     <!--  Start-Home --> 
+    <main class="page" data-js="home">
     <header>
-      <h1>Quiz-App</h1>
+      <h1>Quiz-App </h1>
     </header>
-      <section class="container__question--cards">
-        <article class="question__card" data-js=card>
+      <section class="container__question--cards" data-js="card">
+        <article class="question__card" >
           <div class="bookmark " data-js="bookmark__question" ><i class="fa-solid fa-bookmark"></i></div>
         <h2>Question:</h2>
         <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-         <p  class="answer" data-js="answer">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> 
-        <button  id="show-answer" data-js="answer-button">Show</br>Answer</button>
+        <p  data-js="answer" class="answer hide" >Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+        <button  class="show-answer" data-js=show__answer>Show</br>Answer</button>
         <div class="container__tags">
           <button  class="tag">history</button>
           <button  class="tag">music</button>
@@ -31,28 +33,30 @@
         </div>
         </article>
         </section>
-        <section class="container__question--cards">
-          <article class="question__card">
-            <div class="bookmark"><i class="fa-solid fa-bookmark"></i></div>
+        <!-- Second-Card -->
+        <section class="container__question--cards" data-js="card">
+          <article class="question__card" >
+            <div class="bookmark " data-js="bookmark__question" ><i class="fa-solid fa-bookmark"></i></div>
           <h2>Question:</h2>
           <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-          <!-- <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> -->
-          <button  id="show-answer">Show</br>Answer</button>
+          <p  data-js="answer" class="answer hide" >Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+          <button  class="show-answer" data-js=show__answer>Show</br>Answer</button>
           <div class="container__tags">
             <button  class="tag">history</button>
             <button  class="tag">music</button>
-            <button class="tag">sports</button>
-            <button type="button" class="tag">psychology</button>
+            <button  class="tag">sports</button>
+            <button  class="tag">psychology</button>
           </div>
           </article>
           </section>
-          <section class="container__question--cards">
-            <article class="question__card">
-              <div class="bookmark"><i class="fa-solid fa-bookmark"></i></div>
+          <!-- Third-Card -->
+          <section class="container__question--cards" data-js="card">
+            <article class="question__card" >
+              <div class="bookmark " data-js="bookmark__question" ><i class="fa-solid fa-bookmark"></i></div>
             <h2>Question:</h2>
             <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
-            <!-- <p  class="answer__text">Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p> -->
-            <button  id="show-answer">Show</br>Answer</button>
+            <p  data-js="answer" class="answer hide" >Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+            <button  class="show-answer" data-js=show__answer>Show</br>Answer</button>
             <div class="container__tags">
               <button  class="tag">history</button>
               <button  class="tag">music</button>
@@ -61,50 +65,110 @@
             </div>
             </article>
             </section>
+          </main>
+<!-- End-Home  -->
+<!-- Start-Bookmark  -->
+        <main class="page" data-js="bookmark">
+          <header>
+            <h1>BOOKMARK</h1>
+          </header>
+            <section class="container__question--cards" data-js="card">
+              <article class="question__card" >
+                <div class="bookmark " data-js="bookmark__question" ><i class="fa-solid fa-bookmark"></i></div>
+              <h2>Question:</h2>
+              <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+              <p  data-js="answer" class="answer hide" >Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+              <button  class="show-answer" data-js=show__answer>Show</br>Answer</button>
+              <div class="container__tags">
+                <button  class="tag">history</button>
+                <button  class="tag">music</button>
+                <button  class="tag">sports</button>
+                <button  class="tag">psychology</button>
+              </div>
+              </article>
+              </section>
+              <section class="container__question--cards" data-js="card">
+                <article class="question__card" >
+                  <div class="bookmark " data-js="bookmark__question" ><i class="fa-solid fa-bookmark"></i></div>
+                <h2>Question:</h2>
+                <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+                <p  data-js="answer" class="answer hide" >Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+                <button  class="show-answer" data-js=show__answer>Show</br>Answer</button>
+                <div class="container__tags">
+                  <button  class="tag">history</button>
+                  <button  class="tag">music</button>
+                  <button  class="tag">sports</button>
+                  <button  class="tag">psychology</button>
+                </div>
+                </article>
+                </section>
+                <section class="container__question--cards" data-js="card">
+                  <article class="question__card" >
+                    <div class="bookmark " data-js="bookmark__question" ><i class="fa-solid fa-bookmark"></i></div>
+                  <h2>Question:</h2>
+                  <p  class="question__text">Question Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+                  <p  data-js="answer" class="answer hide" >Answer Placeholder // Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi obcaecati nemo labore fugiat assumenda animi itaque dolores quos neque.</p>
+                  <button  class="show-answer" data-js=show__answer>Show</br>Answer</button>
+                  <div class="container__tags">
+                    <button  class="tag">history</button>
+                    <button  class="tag">music</button>
+                    <button  class="tag">sports</button>
+                    <button  class="tag">psychology</button>
+                  </div>
+                  </article>
+                  </section>
+                </main>
+<!-- End-Bookmark  -->
+<!-- Start-Create  -->
+<main class="page" data-js="create">
+  <header>
+    <h1>Create</h1>
+  </header>
+  <section class="container__question--cards">
+    <article class="notes">
+      <h2 class="create__title">Question:</h2>
+      <textarea class="text" rows="5" cols="50"></textarea>
+      <h2 class="create__title">Answer:</h2>
+      <textarea class="text" rows="5" cols="50"></textarea>
+      <h2 class="create__title">Tags:</h2>
+      <textarea class="text" rows="1" cols="50"></textarea>
+      <button type="button" id="submit">Submit</button>
+    </article>
+  </section>
+  <section class="container__question--cards">
+    <article class="notes">
+      <h2 class="create__title">Question:</h2>
+      <textarea class="text" rows="5" cols="50"></textarea>
+      <h2 class="create__title">Answer:</h2>
+      <textarea class="text" rows="5" cols="50"></textarea>
+      <h2 class="create__title">Tags:</h2>
+      <textarea class="text" rows="1" cols="50"></textarea>
+      <button type="button" id="submit">Submit</button>
+    </article>
+  </section>
+</main>
+<!-- Profile -->
+<main class="page" data-js="profile">
+  <header>
+    <h1>Profile</h1>
+  </header>
+  <section class="container__question--cards">
+    <article class="profile">
+      
+      <p  class="profile__text">Working on my skills, as we speak!</p>
+      <button type="button" id="logout">Logout</button>
+    </section>
     <footer>
-      <nav>
-        <ul>
-          <li>
-            <a class="current-site" href="index.html" alt="Home"
-              ><i class="fa-solid fa-house-chimney"></i
-            ></a>
-          </li>
-          <li>
-            <a class="button" href="bookmark.html" alt="Bookmark"
-              ><i class="fa-solid fa-bookmark"></i
-            ></a>
-          </li>
-          <li>
-            <a class="button" href="input.html" alt="Create"
-              ><i class="fa-solid fa-list"></i
-            ></a>
-          </li>
-          <li>
-            <a class="button" href="profile.html" alt="Profil"
-              ><i class="fa-solid fa-user"></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
+  </main>
+<!-- Navigation-Bar  -->
+<footer>
+   <nav class="nav__js"><ul>
+  <li class="button__js"> <a data-link="home" data-headline="Home"  data-js="navLink"><i class="fa-solid fa-house-chimney"></i></a></li>
+  <li class="button__js"> <a data-js="navLink" data-headline="BOOKMARK" data-link="bookmark"><i class="fa-solid fa-bookmark"></i></a></li>
+  <li class="button__js"> <a data-link="create" data-headline="CREATE" data-js="navLink"><i class="fa-solid fa-list"></i></a></li>
+  <li class="button__js"> <a data-link="profile" data-headline="PROFILE" data-js="navLink"><i class="fa-solid fa-user"></i></a></li>
+</ul>
+ </nav>
     </footer>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
